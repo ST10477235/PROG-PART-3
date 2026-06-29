@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace BOTBUDDY_CYBERSECURITY_CHATBOT
@@ -9,10 +9,11 @@ namespace BOTBUDDY_CYBERSECURITY_CHATBOT
 
         public TaskRepository()
         {
+            // UPDATE: Change the password below to match your MySQL root password
             string server = "localhost";
             string database = "botbuddy_db";
             string username = "root";
-            string password = "MYSQLr00tP@sw0rd";
+            string password = "your_password_here";  
 
             _connectionString = $"Server={server};Database={database};Uid={username};Pwd={password};";
         }
