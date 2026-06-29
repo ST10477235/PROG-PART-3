@@ -1,7 +1,7 @@
-﻿<Window x:Class="BOTBUDDY_CYBERSECURITY_CHATBOT.CHATBOT_INTERFACE"
+<Window x:Class="BOTBUDDY_CYBERSECURITY_CHATBOT.CHATBOT_INTERFACE"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Cyber Bot AI - Security Chatbot"
+        Title="BotBuddy - Cybersecurity Chatbot"
         Height="700" Width="1100"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None" AllowsTransparency="True"
@@ -238,7 +238,7 @@
                     <Border Grid.Row="0" Background="#0A0A0A" BorderBrush="#1A1A1A" BorderThickness="0,0,0,1">
                         <Grid Margin="20,0">
                             <StackPanel VerticalAlignment="Center">
-                                <TextBlock x:Name="LogoText" Text="C  Y  B  E  R   B  O  T   AI"
+                                <TextBlock x:Name="LogoText" Text="B O T B U D D Y   A I"
                                            FontSize="22" FontWeight="Bold" FontFamily="Consolas"
                                            Foreground="#FF1493" HorizontalAlignment="Center"/>
                                 <TextBlock x:Name="ChatUsernameText" FontSize="12" FontFamily="Consolas"
